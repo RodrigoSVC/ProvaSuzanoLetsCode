@@ -1,5 +1,5 @@
 # ProvaSuzanoLetsCode
-Questão 1: 
+# Questão 1: 
 
 Um parque de diversões tem 3 atrações principais: o carrossel, piscina de bolinhas e montanha-russa. Para poder participar de uma atração a pessoa deve cumprir as seguintes condições:
 
@@ -12,7 +12,7 @@ O fiscal de cada atração verificará o ano de nascimento da pessoa e altura pa
 
 Faça uma função em python que receba o ano de nascimento e altura da pessoa e informe quais as atrações que a pessoa pode participar.
 
-Programa 1:
+# Programa 1:
 
 def checkBrinquedos(anoDeNascimento, alturaP):
   CPM = ['Pode ir ao Carrossel', 'Pode ir à Piscina de Bolinhas', 'Pode ir à Montanha Russa'] # 0 = Carrossel, 1 = Piscina, 2 = Montanha
@@ -32,13 +32,14 @@ checkBrinquedos(2012, 1.20)
 
 ##############################################################################################################################################################################################################################################################################################################################################
 
-Questão 2:
-#Enunciado
+# Questão 2:
+
 Peça ao usuário para entrar com um número e faça uma função que retorne o fatorial dele como resposta. O fatorial de um número é o resultado da multiplicação de todos os números que o antecedem a partir de 1 até o número fornecido.
 #Exemplo: fatorial de 4 = 1 * 2 * 3 * 4 = 24
 
 
-Programa 2:
+# Programa 2:
+
 def funcaoFatorial(numeroBase):
   contador = 1
   numerosAteFatorial = []
@@ -56,9 +57,9 @@ funcaoFatorial(input('Digite um número base para  fatorial'))
 
 
 
-Questão 3:
+# Questão 3:
 
-#Dado um número fornecido pelo usuário, faça um programa que teste se é número primo e imprima na tela. Além disso, exiba uma lista de divisores do número testado. 
+Dado um número fornecido pelo usuário, faça um programa que teste se é número primo e imprima na tela. Além disso, exiba uma lista de divisores do número testado. 
 Um número primo é divisível somente por 1 e por ele mesmo. Seu programa deve ser funcional para qualquer número até o 100.
 
 #13 é divisível somente por 1 e ele mesmo (13), então é primo.
@@ -66,7 +67,8 @@ Um número primo é divisível somente por 1 e por ele mesmo. Seu programa deve 
 
 
 
-Programa 3:
+# Programa 3:
+
 def checkIfPrimo(numeroBase):
   checker = []
   if numeroBase == 1:
@@ -88,7 +90,7 @@ checkIfPrimo(int(input('Escreva um número para checar se é primo: ')))
 
 ##############################################################################################################################################################################################################################################################################################################################################
 
-Questão 4: 
+# Questão 4: 
 
 #Faça um script que leia 10 números do usuário e informe se algum número foi inserido em sequência. 
 #Se mais de um número for repetido, informe ao menos um (caso no Exemplo 3).
@@ -106,10 +108,11 @@ Questão 4:
 ##(etc...) 9.. 5.. 9.. 6... 3.. 1.. 
 ###input 9: 6
 ##input 10: 6
-## output: O número 6 foi repetido em sequência
+output: O número 6 foi repetido em sequência
 
 
-Programa 4:
+# Programa 4:
+
 def checkRepetidos():
   numeros = []
   repetidos = []
